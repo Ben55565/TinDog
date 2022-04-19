@@ -1,0 +1,68 @@
+/* Tags styling  */
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: "Indie Flower", cursive;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+p {
+  color: rgb(85, 82, 82);
+}
+body {
+  font-family: "Montserrat";
+}
+/* classes styling  */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 12px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+.navbar-brand {
+  font-family: "Merriweather", serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-image {
+  width: 70%;
+  transform: rotate(15deg);
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.icon {
+  color: rgba(157, 80, 202, 0.514);
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #9135c7b4;
+}
+
+#features {
+  padding: 7% 8%;
+}
+
+.feature {
+  text-align: center;
+}
+
+/* id's styling  */
+#title {
+  background-color: #9135c7b4;
+  color: white;
+}
