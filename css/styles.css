@@ -1,9 +1,21 @@
-/* Tags styling  */
+/* HTML selectors */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
 h1 {
   font-size: 4rem;
   font-weight: bold;
   line-height: 1.5;
   font-family: "Indie Flower", cursive;
+  text-align: left;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 h3 {
@@ -14,9 +26,7 @@ h3 {
 p {
   color: rgb(85, 82, 82);
 }
-body {
-  font-family: "Montserrat";
-}
+
 /* classes styling  */
 .navbar {
   padding: 0 0 4.5rem;
@@ -37,12 +47,14 @@ body {
   margin: 5% 3% 5% 0;
 }
 .title-image {
-  width: 70%;
+  width: 20rem;
   transform: rotate(15deg);
+  position: absolute;
+  right: 20%;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 15%;
 }
 
 .icon {
@@ -53,16 +65,101 @@ body {
   color: #9135c7b4;
 }
 
-#features {
-  padding: 7% 8%;
+.feature {
+  background-color: white;
 }
 
-.feature {
-  text-align: center;
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
+
+.publishers {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.card-header {
+  background-color: #9135c7b4;
+  color: white;
+  padding-top: 7%;
+}
+
+.closing-tag {
+  font-family: "Indie Flower", cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.socials {
+  padding: 7% 1% 2%;
+
+  right: 15px;
+  bottom: 15px;
+}
+
+/* .whatsapp {
+  position: fixed;
+}
+
+.whatsapppic {
+  border-radius: 100%;
+  width: 5rem;
+} */
 
 /* id's styling  */
 #title {
   background-color: #9135c7b4;
   color: white;
+}
+
+#testimonials {
+  padding: 7% 8%;
+
+  background-color: #9135c7b4;
+  color: white;
+}
+
+#features {
+  padding: 15% 8%;
+  background-color: white;
+  position: relative;
+}
+
+#press {
+  background-color: #9135c7b4;
+
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+#cta {
+  background-color: #9135c7b4;
+  padding: 7% 7%;
+  color: white;
+}
+
+/* Media query */
+
+@media (max-width: 1038px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding: 7% 7%;
+  }
+  #title {
+    text-align: center;
+  }
 }
